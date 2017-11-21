@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/bottom_navigation_group">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/notas"
+            android:icon="@drawable/notes_icon"
+            android:title="@string/notas" />
+
+        <item
+            android:id="@+id/chamada"
+            android:title="@string/chamada"
+            android:icon="@drawable/call_icon"/>
+
+        <item
+            android:id="@+id/sair"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/sair" />
+
+    </group>
+
+</menu>

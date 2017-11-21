@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeBar" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="BottomNavigationView.Overlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/colorGrayLight</item>
+        <item name="colorAccent">@color/colorGradient</item>
+    </style>
+
+    <style name="Toolbar.Overlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="colorPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="DefaultButton" parent="android:Widget.DeviceDefault.Button">
+        <item name="android:borderlessButtonStyle">@null</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!--<style name="AppTheme.ButtonGreenStroke" parent="DefaultButton">-->
+    <!--<item name="android:background">@drawable/button_green_stroke</item>-->
+    <!--<item name="android:textColor">@color/colorGreen</item>-->
+    <!--<item name="android:textAlignment">center</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.ButtonGreenLogin" parent="DefaultButton">-->
+    <!--<item name="android:background">@drawable/login_button</item>-->
+    <!--<item name="android:textColor">@color/colorWhite</item>-->
+    <!--<item name="android:textStyle">bold</item>-->
+    <!--<item name="android:textAlignment">center</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.ButtonBlueStroke">-->
+    <!--<item name="android:background">@drawable/button_blue_stroke</item>-->
+    <!--<item name="android:textColor">@color/colorBlue</item>-->
+    <!--<item name="android:textAlignment">center</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.ButtonBlueSolid">
+        <item name="android:background">@drawable/button_blue_solid</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--<style name="AppTheme.ButtonOrangeShop" parent="DefaultButton">-->
+    <!--<item name="android:background">@drawable/shop_button</item>-->
+    <!--<item name="android:textColor">@color/colorWhite</item>-->
+    <!--<item name="android:textStyle">bold</item>-->
+    <!--<item name="android:textAlignment">center</item>-->
+    <!--<item name="android:shadowColor">@color/colorOrange</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.ButtonOrangeStroke">-->
+    <!--<item name="android:background">@drawable/button_orange_stroke</item>-->
+    <!--<item name="android:textColor">@color/colorOrange</item>-->
+    <!--<item name="android:textAlignment">center</item>-->
+    <!--</style>-->
+    <!--</style>-->
+
+</resources>

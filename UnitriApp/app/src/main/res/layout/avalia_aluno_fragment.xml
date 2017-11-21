@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<br.com.zup.multistatelayout.MultiStateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/multiStateLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    app:msl_emptyLayout="@layout/empty_layout"
+    app:msl_errorLayout="@layout/error_layout"
+    app:msl_loadingLayout="@layout/loading_layout"
+    app:msl_state="content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_15"
+            android:text="@string/avalia_aluno"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/medium_big_text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_10">
+
+            <Spinner
+                android:id="@+id/spinnerAvaliacao"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/margin_20"
+                android:textColorHint="@color/colorGrayLight" />
+
+            <EditText
+                android:id="@+id/etPontuacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:backgroundTint="@color/colorBlue"
+                android:hint="@string/pontuacao"
+                android:inputType="textPassword"
+                android:textColorHint="@color/colorGrayLight" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btEdit"
+            style="@style/AppTheme.ButtonBlueSolid"
+            android:layout_width="@dimen/quiz_button_width"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_30"
+            android:text="@string/save"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/default_text_size" />
+
+
+    </LinearLayout>
+</br.com.zup.multistatelayout.MultiStateLayout>

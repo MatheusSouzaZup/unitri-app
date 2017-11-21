@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">UnitriApp</string>
+    <string name="unexpected_error">Algo deu Errado.\nTente Novamente Mais tarde!</string>
+    <string name="email">E-mail: </string>
+    <string name="password">Senha: </string>
+    <string name="invalid_infos">Usuario ou Senha Invalidos!</string>
+    <string name="success">Sucesso</string>
+    <string name="shifts">Turno</string>
+    <string name="matters">Materia</string>
+    <string name="enviar">Enviar</string>
+    <string name="avaliacao">Avaliação</string>
+    <string name="nota">Nota</string>
+    <string name="total">Total</string>
+    <string name="avalicao_chamada">Avaliação/Chamada</string>
+    <string name="crie_avaliacao">Crie uma Avaliação</string>
+    <string name="nome_avaliacao">Nome da Avaliação</string>
+    <string name="valor_avaliação">Valor maximo da Avaliação</string>
+    <string name="save">Salvar</string>
+    <string name="avalia_aluno">Avalie o Aluno</string>
+    <string name="pontuacao">Pontuação</string>
+    <string name="msg_logout">Voce Realmente deseja sair?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="avaliar">Avaliar</string>
+    <string name="criar_avaliacao">Criar Avaliação</string>
+    <string name="ver_alunos_avaliados">Alunos Avaliados</string>
+    <!-- Menu itens name-->
+    <string name="emails">Email</string>
+    <string name="notas">Notas</string>
+    <string name="home">Home</string>
+    <string name="chamada">Chamada</string>
+    <string name="sair">Sair</string>
+
+</resources>
